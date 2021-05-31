@@ -1,5 +1,5 @@
 # file-functions
-This is project for users to login/create an account to share(upload/download) files on a web application
+This is a project for users to login/create an account to share(upload/download) files on a web application
 ## homepage
 When the user runs the server the homepage is loaded. It displays all the available posts uploaded by many
 users and those posts can only be accessed(downloaded/viewed) when the user has logged in.
