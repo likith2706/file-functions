@@ -1,0 +1,51 @@
+HOW TO LOAD AND RUN THE PROGRAM :
+
+step 1:On GitHub, navigate to the main page of the repository.Under the repository name, click Clone or download.
+
+step 2:In the Clone with HTTPs section, click to copy the clone URL for the repository.
+
+step 3:Open Git Bash.Change the current working directory to the location where you want the cloned directory to be made.
+
+step 4:Type git clone, and then paste the URL you copied (example : git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+
+step 5:Press Enter. Your local clone will be created.
+
+step 6:open text editor(preferably pycharm).
+
+step 7:open terminal
+
+step 8:install django (command : pip install django)
+
+step 9: command -> python manage.py makemigrations
+
+step 10:command -> python manage.py migrate
+
+step 11:command -> python manage.py runserver
+
+
+
+
+PROGRAM FLOW :
+
+step 1:After running the server, a link appears (http://127.0.0.1:8000/) click on it and homepage opens.
+
+step 2:The homepage shows the list of available documents to download/view. To download or upload the user needs to sign in.
+
+step 3:For logging in, On the top right of the navigation bar login option is given.Click on that and a dialog box opens where the user can enter the username and password.
+
+step 4:If the user is new he needs to signup. For signing up, On the top right of the navigation bar signup option is given.Click on that and a dialog box opens where the user can enter the signup details.
+
+step 5:After logging in the user has been given options to download and view the documents for every post available.Click on them and the file gets downloaded/viewed in a new tab.
+
+step 6:For uploading a file.The user needs to select the username displayed on the top right of the navigation bar.A list of options are displayed, select the upload option.
+       The user is redirected to upload panel where he can upload the files.The user is given a choose option from which he can browse and select the files.Title and description of the file is added and then submitted.
+
+step 7:For checking the user's profile.user needs to select the username displayed on the top right of the navigation bar.A list of options are displayed, select the profile option.
+       The user is redirected to profile panel where he can view the uploads he has done and can also delete the previously made uploads.
+
+step 8:For logging out.user needs to select the username displayed on the top right of the navigation bar.A list of options are displayed, select the loggout option.
+       The user is redirected to homepage.
+
+
+
+
